@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="MaterialDesignTest.MaterialTestPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <StackLayout Padding="20"
+                         BackgroundColor="LightGray"
+                         HorizontalOptions="FillAndExpand"
+                         Spacing="20"
+                         VerticalOptions="Center">
+                <DatePicker BackgroundColor="{AppThemeBinding Light=LightYellow, Dark=Yellow}" IsEnabled="False" />
+                <DatePicker BackgroundColor="{AppThemeBinding Light=LightYellow,
+                                                              Dark=Yellow}"
+                            IsEnabled="True"
+                            Visual="Material" />
+                <!--  The backgroundcolor of material datepicker gets destroyed if the picker is not enabed.  -->
+                <DatePicker BackgroundColor="{AppThemeBinding Light=LightYellow,
+                                                              Dark=Yellow}"
+                            IsEnabled="False"
+                            Visual="Material" />
+
+                <TimePicker BackgroundColor="{AppThemeBinding Light=LightYellow, Dark=Yellow}" IsEnabled="False" />
+                <TimePicker BackgroundColor="{AppThemeBinding Light=LightYellow,
+                                                              Dark=Yellow}"
+                            IsEnabled="True"
+                            Visual="Material" />
+                <!--  The backgroundcolor of material datepicker gets destroyed if the picker is not enabed.  -->
+                <TimePicker BackgroundColor="{AppThemeBinding Light=LightYellow,
+                                                              Dark=Yellow}"
+                            IsEnabled="False"
+                            Visual="Material" />
+
+                <Button BackgroundColor="{AppThemeBinding Light=LightGreen,
+                                                          Dark=Yellow}"
+                        BorderColor="Red"
+                        BorderWidth="5"
+                        ImageSource="visible.png"
+                        Text="Test"
+                        TextColor="Blue" />
+                <Button BackgroundColor="{AppThemeBinding Light=LightGreen,
+                                                          Dark=Yellow}"
+                        BorderColor="Red"
+                        BorderWidth="5"
+                        Text="Test"
+                        TextColor="Blue"
+                        Visual="Material" />
+                <!--  The backgroundcolor of material button gets destroyed having an image in it. It looks like the button is disabeled but you're still able to push it.  -->
+                <Button BackgroundColor="{AppThemeBinding Light=LightGreen,
+                                                          Dark=Yellow}"
+                        BorderColor="Red"
+                        BorderWidth="5"
+                        ImageSource="visible.png"
+                        Text="Test"
+                        TextColor="Blue"
+                        Visual="Material" />
+
+                <Entry BackgroundColor="{AppThemeBinding Light=LightBlue,
+                                                         Dark=Blue}"
+                       IsEnabled="False"
+                       Placeholder="Test"
+                       PlaceholderColor="{AppThemeBinding Light=Black,
+                                                          Dark=White}" />
+                <Entry BackgroundColor="{AppThemeBinding Light=LightBlue,
+                                                         Dark=Blue}"
+                       Placeholder="Test"
+                       PlaceholderColor="{AppThemeBinding Light=Black,
+                                                          Dark=White}"
+                       Visual="Material" />
+                <!--  The backgroundcolor of material entry gets destroyed if the picker is not enabed.  -->
+                <Entry BackgroundColor="{AppThemeBinding Light=LightBlue,
+                                                         Dark=Blue}"
+                       IsEnabled="False"
+                       Placeholder="Test"
+                       PlaceholderColor="{AppThemeBinding Light=Black,
+                                                          Dark=White}"
+                       Visual="Material" />
+
+                <Editor BackgroundColor="{AppThemeBinding Light=LightPink,
+                                                          Dark=Red}"
+                        IsEnabled="False"
+                        Text="It's a test."
+                        TextColor="{AppThemeBinding Light=Black,
+                                                    Dark=White}" />
+                <Editor BackgroundColor="{AppThemeBinding Light=LightPink,
+                                                          Dark=Red}"
+                        Text="It's a test."
+                        TextColor="{AppThemeBinding Light=Black,
+                                                    Dark=White}"
+                        Visual="Material" />
+                <!--  The backgroundcolor of material editor gets destroyed if the picker is not enabed.  -->
+                <Editor BackgroundColor="{AppThemeBinding Light=LightPink,
+                                                          Dark=Red}"
+                        IsEnabled="False"
+                        Text="It's a test."
+                        TextColor="{AppThemeBinding Light=Black,
+                                                    Dark=White}"
+                        Visual="Material" />
+
+                <Picker BackgroundColor="{AppThemeBinding Light=LightGreen,
+                                                          Dark=Green}"
+                        IsEnabled="False"
+                        TextColor="{AppThemeBinding Light=Black,
+                                                    Dark=White}">
+                    <Picker.Items>
+                        <x:String>Monkey</x:String>
+                    </Picker.Items>
+                </Picker>
+                <Picker BackgroundColor="{AppThemeBinding Light=LightGreen,
+                                                          Dark=Green}"
+                        TextColor="{AppThemeBinding Light=Black,
+                                                    Dark=White}"
+                        Visual="Material">
+                    <Picker.Items>
+                        <x:String>Monkey</x:String>
+                    </Picker.Items>
+                </Picker>
+                <!--  The backgroundcolor of material picker gets destroyed if the picker is not enabed.  -->
+                <Picker BackgroundColor="{AppThemeBinding Light=LightGreen,
+                                                          Dark=Green}"
+                        IsEnabled="False"
+                        TextColor="{AppThemeBinding Light=Black,
+                                                    Dark=White}"
+                        Visual="Material">
+                    <Picker.Items>
+                        <x:String>Monkey</x:String>
+                    </Picker.Items>
+                </Picker>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

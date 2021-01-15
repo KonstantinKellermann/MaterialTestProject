@@ -1,0 +1,14 @@
+C:\DEV\Code\TestSolutions\MaterialDesignTest\MaterialDesignTest\MaterialDesignTest\bin\Debug\netstandard2.0\MaterialDesignTest.deps.json
+C:\DEV\Code\TestSolutions\MaterialDesignTest\MaterialDesignTest\MaterialDesignTest\bin\Debug\netstandard2.0\MaterialDesignTest.dll
+C:\DEV\Code\TestSolutions\MaterialDesignTest\MaterialDesignTest\MaterialDesignTest\bin\Debug\netstandard2.0\ref\MaterialDesignTest.dll
+C:\DEV\Code\TestSolutions\MaterialDesignTest\MaterialDesignTest\MaterialDesignTest\bin\Debug\netstandard2.0\MaterialDesignTest.pdb
+C:\DEV\Code\TestSolutions\MaterialDesignTest\MaterialDesignTest\MaterialDesignTest\obj\Debug\netstandard2.0\MaterialDesignTest.csprojAssemblyReference.cache
+C:\DEV\Code\TestSolutions\MaterialDesignTest\MaterialDesignTest\MaterialDesignTest\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\DEV\Code\TestSolutions\MaterialDesignTest\MaterialDesignTest\MaterialDesignTest\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\DEV\Code\TestSolutions\MaterialDesignTest\MaterialDesignTest\MaterialDesignTest\obj\Debug\netstandard2.0\MaterialDesignTest.AssemblyInfoInputs.cache
+C:\DEV\Code\TestSolutions\MaterialDesignTest\MaterialDesignTest\MaterialDesignTest\obj\Debug\netstandard2.0\MaterialDesignTest.AssemblyInfo.cs
+C:\DEV\Code\TestSolutions\MaterialDesignTest\MaterialDesignTest\MaterialDesignTest\obj\Debug\netstandard2.0\MaterialDesignTest.csproj.CoreCompileInputs.cache
+C:\DEV\Code\TestSolutions\MaterialDesignTest\MaterialDesignTest\MaterialDesignTest\obj\Debug\netstandard2.0\XamlC.stamp
+C:\DEV\Code\TestSolutions\MaterialDesignTest\MaterialDesignTest\MaterialDesignTest\obj\Debug\netstandard2.0\MaterialDesignTest.dll
+C:\DEV\Code\TestSolutions\MaterialDesignTest\MaterialDesignTest\MaterialDesignTest\obj\Debug\netstandard2.0\ref\MaterialDesignTest.dll
+C:\DEV\Code\TestSolutions\MaterialDesignTest\MaterialDesignTest\MaterialDesignTest\obj\Debug\netstandard2.0\MaterialDesignTest.pdb
